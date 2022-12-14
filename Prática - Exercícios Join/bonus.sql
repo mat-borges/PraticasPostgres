@@ -1,0 +1,1 @@
+SELECT educations."schoolId" AS id, schools.name AS school, courses.name AS course, companies.name AS company, roles.name AS role FROM applicants JOIN educations ON users.id=
