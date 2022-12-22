@@ -1,3 +1,5 @@
+CREATE DATABASE bank_model;
+
 CREATE TYPE phone_type AS ENUM('landline','mobile');
 CREATE TYPE transaction_type AS ENUM('deposit','withdraw');
 
@@ -10,7 +12,7 @@ CREATE TABLE cities (
 	id AS SERIAL PRIMARY KEY NOT NULL,
 	"name" AS TEXT NOT NULL,
 	state_id AS INTEGER
-)
+);
 
 CREATE TABLE customers(
 	id AS SERIAL PRIMARY KEY NOT NULL,

@@ -1,4 +1,6 @@
-CREATE TYPE grade AS ENUM('Abaixo das expectativas','Dentro das Expectativas','Acima das Expectativas')
+CREATE DATABASE course_example;
+
+CREATE TYPE grade AS ENUM('Abaixo das expectativas','Dentro das Expectativas','Acima das Expectativas');
 
 CREATE TABLE students (
 	"id" SERIAL NOT NULL,

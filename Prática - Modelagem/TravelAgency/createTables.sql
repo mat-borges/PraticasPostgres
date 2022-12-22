@@ -1,3 +1,5 @@
+CREATE DATABASE travel_agency;
+
 CREATE TABLE flights (
 	"id" SERIAL PRIMARY KEY NOT NULL,
 	"code" varchar(7) NOT NULL,
